@@ -9,10 +9,10 @@ public class Preparser {
         while (i < input.length()) {
             String tmp = "";
             if (input.charAt(i) == '(') {
-                int parenthese_level = 1 
-                while (i < input.length() parenthese_level > 0){
-                    tmp += input
-                }
+                // int parenthese_level = 1
+                // while (i < input.length() parenthese_level > 0){
+                // tmp += input
+                // }
 
             } else {
                 while (i < input.length() && Character.isDigit(input.charAt(i))) {
